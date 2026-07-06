@@ -53,7 +53,7 @@ export default function SettingsLayout() {
         </nav>
 
         {/* RIGHT COLUMN: Nested Dashboard Dynamic Panel Display Viewport */}
-        <div className="flex-1 bg-[#1f1d2b] border border-gray-800 rounded-xl p-6 flex overflow-y-auto  items-center justify-center text-5xl text-white">
+        <div className="flex-1 bg-[#1f1d2b] border border-gray-800 rounded-xl p-6 flex overflow-y-auto  items-center justify-center text-2xl text-white">
           <Outlet />
         </div>
 
